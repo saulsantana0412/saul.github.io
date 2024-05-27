@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::selection{
+    background-color: rgb(41, 212, 146);
+}
+
+#name-container{
+    height: 93vh;
+    width: 100vw;
+    background-color: rgb(33, 33, 33);
+    padding-left: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#my-gif{
+    position: relative;
+    left: 65vw;
+    bottom: 480px;
+    width: 550px;
+    filter: grayscale(100);
+}
+
+#name{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color:rgb(230, 230, 230);
+    font-size: 130px;
+    transition: all 1s;
+}
+
+#contact_information-container{
+    height: 7vh;
+    width: 100vw;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20%;
+    background-color: rgb(33, 33, 33);
+    color:  rgb(230, 230, 230);
+}
+
+#title{
+    position: sticky;
+    top: 0;
+    height: 7vh;
+    width: 100vw;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    background-color: rgb(41, 212, 146);
+    color:  rgb(33, 33, 33);   
+}
+
+#contact_information-container p{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    justify-content: center;   
+}
+
+#contact_information-container a, a:link, a:visited, a:focus, a:active{
+    color:  rgb(230, 230, 230);
+    outline: none;
+    text-decoration: none;
+}
+
+#contact_information-container i{
+    margin-right: 10px;
+}
+
+#other_information-container{
+    height: 200vh;
+    width: 100vw;
+    padding: 5% 30%;
+    box-sizing: border-box;
+    background-color: rgb(230, 230, 230);
+    z-index: 1;
+}
+
+.other{
+    margin-top: 50px;
+}
+
+.other h3{
+    width: max-content;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    text-decoration-color: rgb(41, 212, 146);
+    text-decoration-thickness: 3px;
+    font-size: 25px;
+}
+
+#description{
+    text-align: justify;
+}
+
+#content{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+
+#content div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#content p{
+    margin-bottom: 10px;
+}
+
+#content img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+ 
+ body::-webkit-scrollbar-track{
+     background-color: rgb(33, 33, 33);
+ }
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width:5px;
+}
+
+body::-webkit-scrollbar-button:increment{
+    display: none;
+} 
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(41, 212, 146);
+    height: 50px;
+}
